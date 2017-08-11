@@ -29,7 +29,7 @@ void dfs(ll u, ll pr){
 
 void build(ll id,ll l, ll r){
 	if(l == r){
-    tree[id] = 1ll << a[tour[l]];
+    		tree[id] = 1ll << a[tour[l]];
 	}
 	else{
 		ll mid = (l + r) / 2;
